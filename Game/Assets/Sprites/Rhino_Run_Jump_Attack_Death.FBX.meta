@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 421218aaab874e847b9dfe4c5f463376
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: Base HumanLPlatform
+    100004: Base HumanRPlatform
+    100006: Geo_L_Eye004
+    100008: Geo_L_Eye005
+    100010: Head
+    100012: L_Forearm
+    100014: L_Upperarm
+    100016: LCalf
+    100018: LThigh
+    100020: Pelvis
+    100022: R_Forearm
+    100024: R_Lid
+    100026: R_Lid001
+    100028: R_Upperarm
+    100030: RCalf
+    100032: Rhino_Modified02
+    100034: //RootNode
+    100036: RThigh
+    100038: Torso01
+    100040: Torso02
+    400000: Base Human
+    400002: Base HumanLPlatform
+    400004: Base HumanRPlatform
+    400006: Geo_L_Eye004
+    400008: Geo_L_Eye005
+    400010: Head
+    400012: L_Forearm
+    400014: L_Upperarm
+    400016: LCalf
+    400018: LThigh
+    400020: Pelvis
+    400022: R_Forearm
+    400024: R_Lid
+    400026: R_Lid001
+    400028: R_Upperarm
+    400030: RCalf
+    400032: Rhino_Modified02
+    400034: //RootNode
+    400036: RThigh
+    400038: Torso01
+    400040: Torso02
+    2300000: Geo_L_Eye004
+    2300002: Geo_L_Eye005
+    2300004: R_Lid
+    2300006: R_Lid001
+    3300000: Geo_L_Eye004
+    3300002: Geo_L_Eye005
+    3300004: R_Lid
+    3300006: R_Lid001
+    4300000: Rhino_Modified02
+    4300002: Geo_L_Eye004
+    4300004: R_Lid
+    4300006: Geo_L_Eye005
+    4300008: R_Lid001
+    7400000: Run
+    7400002: Jump
+    7400004: Attack
+    7400006: Death
+    9500000: //RootNode
+    13700000: Rhino_Modified02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Base HumanLPlatform
+        weight: 1
+      - path: Base HumanRPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/Torso01
+        weight: 1
+      - path: Pelvis/Torso01/Torso02
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye004
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye005
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid001
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Rhino_Modified02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Base HumanLPlatform
+        weight: 1
+      - path: Base HumanRPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/Torso01
+        weight: 1
+      - path: Pelvis/Torso01/Torso02
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye004
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye005
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid001
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Rhino_Modified02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Base HumanLPlatform
+        weight: 1
+      - path: Base HumanRPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/Torso01
+        weight: 1
+      - path: Pelvis/Torso01/Torso02
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye004
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye005
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid001
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Rhino_Modified02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 62
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Base HumanLPlatform
+        weight: 1
+      - path: Base HumanRPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/Torso01
+        weight: 1
+      - path: Pelvis/Torso01/Torso02
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye004
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/Geo_L_Eye005
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/Head/R_Lid001
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/L_Upperarm/L_Forearm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm
+        weight: 1
+      - path: Pelvis/Torso01/Torso02/R_Upperarm/R_Forearm
+        weight: 1
+      - path: Rhino_Modified02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

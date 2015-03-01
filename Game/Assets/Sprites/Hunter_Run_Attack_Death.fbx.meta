@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 3d3edf672c69250489b7948f39a45697
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: hat
+    100004: Head
+    100006: Hunter
+    100008: //RootNode
+    100010: LCalf
+    100012: LCollarbone
+    100014: LFingers01
+    100016: LFingers02
+    100018: LFingers03
+    100020: LFoot
+    100022: LForearm
+    100024: LPalm
+    100026: LPlatform
+    100028: LThigh
+    100030: LThumb01
+    100032: LThumb02
+    100034: LThumb03
+    100036: LUpperarm
+    100038: Neck1
+    100040: Neck2
+    100042: Nose
+    100044: Pelvis
+    100046: RCalf
+    100048: RCollarbone
+    100050: RFinger01
+    100052: RFinger02
+    100054: RFinger03
+    100056: RFoot
+    100058: RForearm
+    100060: Ribcage
+    100062: RPalm
+    100064: RPlatform
+    100066: RThigh
+    100068: RThumb01
+    100070: RThumb02
+    100072: RThumb02 1
+    100074: RUpperarm
+    100076: Spine1
+    100078: Spine2
+    100080: Spine3
+    100082: Spine4
+    400000: Base Human
+    400002: hat
+    400004: Head
+    400006: Hunter
+    400008: //RootNode
+    400010: LCalf
+    400012: LCollarbone
+    400014: LFingers01
+    400016: LFingers02
+    400018: LFingers03
+    400020: LFoot
+    400022: LForearm
+    400024: LPalm
+    400026: LPlatform
+    400028: LThigh
+    400030: LThumb01
+    400032: LThumb02
+    400034: LThumb03
+    400036: LUpperarm
+    400038: Neck1
+    400040: Neck2
+    400042: Nose
+    400044: Pelvis
+    400046: RCalf
+    400048: RCollarbone
+    400050: RFinger01
+    400052: RFinger02
+    400054: RFinger03
+    400056: RFoot
+    400058: RForearm
+    400060: Ribcage
+    400062: RPalm
+    400064: RPlatform
+    400066: RThigh
+    400068: RThumb01
+    400070: RThumb02
+    400072: RThumb02 1
+    400074: RUpperarm
+    400076: Spine1
+    400078: Spine2
+    400080: Spine3
+    400082: Spine4
+    2300000: hat
+    2300002: Nose
+    3300000: hat
+    3300002: Nose
+    4300000: Hunter
+    4300002: hat
+    4300004: Nose
+    7400000: Run
+    7400002: Kill
+    7400004: Death
+    9500000: //RootNode
+    13700000: Hunter
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Hunter
+        weight: 1
+      - path: LPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02/LFingers03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02/LThumb03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/hat
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/Nose
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02/RFinger03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02/RThumb02
+          1
+        weight: 1
+      - path: RPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Kill
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Hunter
+        weight: 1
+      - path: LPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02/LFingers03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02/LThumb03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/hat
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/Nose
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02/RFinger03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02/RThumb02
+          1
+        weight: 1
+      - path: RPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 1
+      - path: Hunter
+        weight: 1
+      - path: LPlatform
+        weight: 1
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LFingers01/LFingers02/LFingers03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/LThumb01/LThumb02/LThumb03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/hat
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/Neck1/Neck2/Head/Nose
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RFinger01/RFinger02/RFinger03
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Spine3/Spine4/Ribcage/RCollarbone/RUpperarm/RForearm/RPalm/RThumb01/RThumb02/RThumb02
+          1
+        weight: 1
+      - path: RPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
